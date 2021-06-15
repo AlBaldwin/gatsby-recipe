@@ -1,12 +1,10 @@
 import React from "react"
 import Layout from "../components/Layout"
 
-export default function Home() {
+export default function Error() {
   return (
     <Layout>
-      <div>
-        <h1>This is the Home page</h1>
-      </div>
+      <h1>Error: Page does not exist</h1>
     </Layout>
   )
 }
